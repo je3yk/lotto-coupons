@@ -1,0 +1,40 @@
+.win-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.win-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #ccc;
+}
+
+.stat-columns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.stat-columns:last-child {
+    border-right: none;
+}
+
+.stat-category {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
